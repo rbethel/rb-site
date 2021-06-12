@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An example Eleventy blog",
   "scripts": {
-    "build": "eleventy",
+    "build": "echo $TEST_ENV ;eleventy",
     "watch": "eleventy --serve",
     "start": "run-p watch sandbox",
     "sandbox": "ARC_STATIC_SPA=false npx sandbox",
